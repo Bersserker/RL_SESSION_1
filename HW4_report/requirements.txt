@@ -1,0 +1,11 @@
+# Основные зависимости HW4 из метаданных сохранённого запуска.
+gymnasium==1.4.0
+stable-baselines3==2.9.2
+torch==2.15.0
+numpy==2.5.4
+pandas==3.1.1
+matplotlib==3.11.2
+pillow==11.3.0
+# Средства запуска из сохранённого pip freeze.
+ipykernel==6.31.0
+jupyterlab==4.6.4

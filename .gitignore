@@ -1,0 +1,45 @@
+# Python environments and caches
+.venv/
+.venv-*/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Jupyter temporary files (keep notebooks and saved outputs)
+.ipynb_checkpoints/
+.jupyter/
+.ipython/
+
+# Editors and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+.aws/
+
+# Local assistant configuration
+.agents/
+.codex/
+
+# Build output
+build/
+dist/
+*.egg-info/
+
+# Experiment models, CSV results, plots, GIFs and pip freeze in
+# HW4_artifacts/ are intentionally tracked as report evidence.

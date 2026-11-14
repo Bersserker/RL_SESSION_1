@@ -1,0 +1,17 @@
+/home/alex/.config/matplotlib is not a writable directory
+Matplotlib created a temporary cache directory at /tmp/matplotlib-j2su1wp7 because there was an issue with the default path (/home/alex/.config/matplotlib); it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+WARNING: The directory '/home/alex/.cache/pip' or its parent directory is not owned or is not writable by the current user. The cache has been disabled. Check the permissions and owner of that directory. If executing pip with sudo, you should use sudo's -H flag.
+Python: 3.12.3 (main, Aug 31 2026, 10:18:26) [GCC 13.3.0]
+{
+  "gymnasium": "1.4.0",
+  "stable-baselines3": "2.9.2",
+  "torch": "2.15.0",
+  "numpy": "2.5.4",
+  "pandas": "3.1.1",
+  "matplotlib": "3.11.2",
+  "pillow": "11.3.0"
+}
+Полный pip freeze: HW4_artifacts/pip-freeze.txt
+seed=777: 50016 шагов, 300.1 с
+   seed  steps  training_minutes
+0   777  50016             5.002

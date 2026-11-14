@@ -1,0 +1,2 @@
+# Preserve raw Monitor CSV logs and accept their CRLF line endings.
+*.monitor.csv -text whitespace=cr-at-eol

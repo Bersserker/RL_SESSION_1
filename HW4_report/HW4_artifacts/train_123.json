@@ -1,0 +1,38 @@
+{
+  "config": {
+    "env": "MountainCarContinuous-v0",
+    "timesteps": 50000,
+    "parameters": {
+      "learning_rate": 0.0003,
+      "buffer_size": 50000,
+      "learning_starts": 0,
+      "batch_size": 512,
+      "gamma": 0.9999,
+      "tau": 0.01,
+      "train_freq": 32,
+      "gradient_steps": 32,
+      "ent_coef": 0.1,
+      "use_sde": true,
+      "policy_kwargs": {
+        "net_arch": [
+          64,
+          64
+        ],
+        "log_std_init": -3.67
+      }
+    },
+    "versions": {
+      "gymnasium": "1.4.0",
+      "stable-baselines3": "2.9.2",
+      "torch": "2.15.0",
+      "numpy": "2.5.4",
+      "pandas": "3.1.1",
+      "matplotlib": "3.11.2",
+      "pillow": "11.3.0"
+    },
+    "threads": 1,
+    "seed": 123
+  },
+  "seconds": 299.4658567260003,
+  "actual_steps": 50016
+}
